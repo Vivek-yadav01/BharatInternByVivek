@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Font', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+body {
+    
+    background-color: black;
+
+   
+    padding: 0 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav div img{
+    height: 120px;
+}
+.center{
+    width: 650px;
+    padding: 50px 0;
+    margin: 0 10vw;
+}
+ .center h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px 0 ;
+}
+.center h6{
+    font-size: 20px;
+    padding: 20px 0;
+}
+ .para{
+    padding: 50px;
+    background-color: #361229;
+    
+    border-radius: 10px;
+    font-size: large;
+
+}
+.para h1{
+    margin: 20px 0;
+}
+.para2{
+    margin: 50px 0;
+    
+   
+}
+.para2 div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card
+{
+ 
+    background-color:  #1d182f;
+    border-radius:10px;
+    padding: 30px;
+    margin: 20px 0;
+    width: 200px;
+    height: 250px;
+
+    
+}
+.questions{
+    
+    border-radius:10px;
+    padding: 30px;
+margin: 20px;
+}
+.question{
+ margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px 20px;
+   
+}
+
+.question h2{
+    font-weight: 100;
+}
+ul{
+    padding: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+.end{
+    padding: 30px;
+}
+
+
+select{
+  background-color: transparent;
+  padding: 8px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px;
+}
+option{
+    color: black;
+}
+button{
+    padding: 8px 24px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 0;
+}
+.center div button{
+    padding: 17px 24px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 22px;
+    border: 0;
+
+}
+input{
+    font-size: 16px;
+    padding: 17px 15px;
+    width: 400px;
+
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+
+
+}
+button:hover{
+    background-color: rgb(197, 3, 3);
+    cursor: pointer;
+}
+.question:hover{
+    cursor: pointer;
+    background-color: #383838;
+}
+.center div button:hover{
+    background-color:  rgb(197, 3, 3);
+    cursor: pointer;
+}
+.para:hover{
+    
+    transform: scale(1.02);
+}
+.card:hover{
+    transform: scale(1.02);  
+}
+
+@media( max-width:500){
+.card{
+        display: none;
+    }
+}
